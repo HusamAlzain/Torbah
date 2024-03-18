@@ -17,9 +17,9 @@ names = ["Ali", "Ahemd"]
 usernames = ["Ali01", "Ahemd1"]
 
 # Load hashed passwords
-file_path = Path(__file__).parent / "hashed_pw.pkl"
-with file_path.open("rb") as file:
-    hashed_passwords = pickle.load(file)
+# file_path = Path(__file__).parent / "hashed_pw.pkl"
+# with file_path.open("rb") as file:
+#     hashed_passwords = pickle.load(file)
 
 # 'afj' is a random code for encruption, cookie_expairy_days => after 30 days the cookies will be removed
 # authenticator = stauth.Authenticate (names, usernames, hashed_passwords,
